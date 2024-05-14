@@ -1,7 +1,6 @@
 // @flow
 import { Platform } from 'react-native';
-import isNil from 'lodash.isnil';
-import isFunction from 'lodash.isfunction';
+import { isNil, isFunction } from 'lodash';
 
 import * as providers from './providers';
 import { IProvider, IVersionAndStoreUrl } from './providers/types';
